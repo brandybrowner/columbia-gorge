@@ -1,0 +1,64 @@
+body{
+	width:1000px;
+	margin: 0 auto;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px;
+	background-color: #003300;
+}
+
+img {
+	float: left;
+	width: 300px;
+	margin: 10px;
+}
+
+.nav {
+	float: left;
+	clear: both;
+	width: 900px;
+	height: 50px;
+}
+
+.left {
+	float: left;
+	width: 250px;
+	height: 500px;
+	margin: 10px 0 0 0;
+	background-color: red;
+}
+
+.links {
+	width: 200px;
+	height: 30px;
+	padding: 10px;
+	margin: 5px 0px 5px 0px;
+}
+
+.middle{
+	float: left;
+	width: 450px;
+	height: 500px;
+	margin: 10px 0 0 0;
+	background-color: green;
+}
+
+.right {
+	float: left;
+	width: 300px;
+	height: 500px;
+	margin: 10px 0 0 0;
+	background-color: pink;
+}
+
+.last {
+	float: left;
+	width: 750px;
+	height: 500px;
+	margin: 10px 0 0 0;
+	background-color: blue;
+}

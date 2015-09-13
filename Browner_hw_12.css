@@ -1,0 +1,167 @@
+/*alldocument*/
+.wrapper{
+	width:1000px;
+	margin: 0 auto;
+}/*put all of the elements in a div and then
+margin: 0 auto to center on the page. So do this 
+last so that everything is spaced properly*/
+
+a, h1, h2, p, .pullquote {
+	font-family: arial, sans-serif;
+}
+
+/*all docs*/
+.banner {
+	width: 1000px;
+	height: 251px;
+	margin-bottom: 5px;
+/*	background-color: lightblue;*/
+}
+
+/*all docs*/
+.nav {
+	float: left;
+	clear: both;
+	width: 900px;
+	height: 50px;
+}
+
+/*all docs*/
+.greenlinks {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px;
+	background-color: #003300;
+}
+
+/*index*/
+.pullquote {
+	float: left;
+	font-size: 24px;
+	width: 1000px;
+	padding: 12px 0 12px 0;
+	margin: 20px 0 30px 0;
+	border-bottom: solid 4px #003300;
+}
+
+/*index*/
+.left {
+	/*position: fixed;
+	left: auto;
+	top: 70px;*/
+	float: left;
+	width: 250px;
+	margin-top: 20px;
+	/*height: 400px;*/
+	/*background-color: red;*/
+}
+
+/*index*/
+#applink {
+	width: 220px;
+	margin: 0 15px;
+}
+
+/*index*/
+.main {
+	float: left;
+	width: 730px;
+	/*height: 500px;*/
+	margin-top: 20px;
+	margin-left: 20px;
+	/*background-color: blue;*/
+}
+
+/*index*/
+#mainbottom {
+	float: right;
+	clear: both;
+	width: 1000px;
+}
+
+/*12B*/
+#multnomah {
+	width: 250px;
+}
+
+/*12B*/
+#visitor {
+	margin-left: 45px;
+}
+
+/*12C_Gallery photos*/
+#mainphotos {
+	margin-left: 20px;
+}
+
+/*12C_Gallery photos*/
+.photos {
+	float: left;
+	width: 300px;
+	margin: 10px;
+}
+
+/*12D*/
+.aboutapp {
+	float: left;
+	width: 875px;
+}
+
+/*12D*/
+#app {
+	float: left;
+	width: 109px;
+	margin-top: 12px;
+	margin-left: 12px;
+}
+
+/*12D*/
+h2 {
+	float: left;
+}
+
+.appview {
+	float: left;
+	clear: both;
+	width: 1000px;
+	margin-top: 20px;
+
+}
+
+iframe {
+	float: left;
+}
+
+#phone {
+	float: right;
+}
+
+@media all and (max-width: 480px) {
+	.wrapper{
+	width: 480px;
+	}
+
+	.banner, .pullquote, .main, #mainbottom, #visitor, .aboutapp, .appview, p {
+		width: 480px;
+	}
+
+	nav {
+		width: 480px;
+	}
+
+	.left {
+		margin-left: 115px;
+	}
+
+	#visitor {
+		margin-left: 0;
+	}
+
+	.photos {
+		margin-left: 90px;
+		margin-top: 10px;
+	}
+
+}
+
